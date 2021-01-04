@@ -66,11 +66,7 @@ def detect_numplate(image):#function to detect number plate by removing noise an
     return image,Cropped,approx
 
 
-
-url = "http://192.168.1.4:8080/video"
-
-
-video = cv2.VideoCapture(url)
+video = cv2.VideoCapture(0)
 a = 1
 
 while True:
