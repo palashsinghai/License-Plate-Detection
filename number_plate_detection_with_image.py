@@ -9,7 +9,7 @@ pytesseract.pytesseract.tesseract_cmd = r"C:\\Program Files\\Tesseract-OCR\\tess
 image = cv2.imread(r"D:\pythonProject\test_car_images\carimg.jpeg")
 
 # Resize the image - change width to 500
-# image = imutils.resize(image, width=500)
+image = imutils.resize(image, width=500)
 
 # Display the original image
 cv2.imshow("Original Image", image)
@@ -27,8 +27,8 @@ cv2.waitKey(0)
 
 # Find Edges of the grayscale image
 edged = cv2.Canny(gray, 100, 255)
-# cv2.imshow("3 - Canny Edges", edged)
-# cv2.waitKey(0)
+cv2.imshow("3 - Canny Edges", edged)
+cv2.waitKey(0)
 
 # Find contours based on Edges
 cnts, new  = cv2.findContours(edged.copy(), cv2.RETR_LIST, cv2.CHAIN_APPROX_SIMPLE)
