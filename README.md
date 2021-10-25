@@ -31,7 +31,7 @@ You can also use an external camera for video detection, all you have to do is g
 ## Working
 
 - **Step 1 :**
-<img src="https://github.com/palashsinghai/screenshots/tree/main/license_plate_detection_model_screenshots/Original Image.png" width=350 heigth=200>
+<img src="https://github.com/palashsinghai/screenshots/tree/main/license_plate_detection_model_screenshots/Cropped Image.png">
 Firstly the video will get captured by the model and only a frame from that video will be passed in the model.
 
 - **Step 2 :**
