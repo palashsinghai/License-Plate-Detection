@@ -1,8 +1,8 @@
 
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGTOyA49vzagt7Ad3lCgzz8NCQONbuTWFsZg&usqp=CAU" width=150 height=150>
+
+
 # LICENSE PLATE DETECTION
-
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGTOyA49vzagt7Ad3lCgzz8NCQONbuTWFsZg&usqp=CAU" align="Right">
-
 This is object detection model which takes an image/frame captured from a camera and detects the number plate from that image/frame.
 This model is widely used in detecting the identity of a person who was passed by a partiuclar area.
 
