@@ -10,9 +10,11 @@ This model is widely used in detecting the identity of a person who was passed b
  **Python Packages Used :**
 
  - [opencv-python](https://pypi.org/project/opencv-python/)
+ 
 OpenCV is a huge open-source library for computer vision, machine learning, and image processing. OpenCV supports a wide variety of programming languages like Python, C++, Java, etc. It can process images and videos to identify objects, faces, or even the handwriting of a human.
  
  - [Pytesseract](https://pypi.org/project/pytesseract/)
+ 
  Python-tesseract is an optical character recognition (OCR) tool for python. That is, it will recognize and “read” the text embedded in images.
 
 Python-tesseract is a wrapper for Google’s Tesseract-OCR Engine. It is also useful as a stand-alone invocation script to tesseract, as it can read all image types supported by the Pillow and Leptonica imaging libraries, including jpeg, png, gif, bmp, tiff, and others. Additionally, if used as a script, Python-tesseract will print the recognized text instead of writing it to a file.
